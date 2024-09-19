@@ -15,6 +15,8 @@ public class RateLimiterService {
     if (bucket == null) {
       // Create a new TokenBucket instance
       bucket = new TokenBucket(RateLimiterConstants.MAX_REQUESTS, RateLimiterConstants.TIME_WINDOW_MILLISECONDS);
+      //Part2
+//      bucket = new TokenBucket(RateLimiterConstants.MAX_REQUESTS, RateLimiterConstants.TIME_WINDOW_MILLISECONDS, RateLimiterConstants.MAX_CREDITS);
       // Put it in the map
       customerBuckets.put(customerId, bucket);
     }
