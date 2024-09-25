@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Limiter.iml" filepath="$PROJECT_DIR$/Limiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD Practice.iml" filepath="$PROJECT_DIR$/LLD Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiddlewareRouter/MiddlewareRouter.iml" filepath="$PROJECT_DIR$/MiddlewareRouter/MiddlewareRouter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RateLimiter/RateLimiter.iml" filepath="$PROJECT_DIR$/RateLimiter/RateLimiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SnakeGameDesign/SnakeGameDesign.iml" filepath="$PROJECT_DIR$/SnakeGameDesign/SnakeGameDesign.iml" />
     </modules>
   </component>
 </project>

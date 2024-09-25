@@ -2,13 +2,13 @@ package dto;
 
 public class TokenBucket {
   private final int maxRequests;
-//  private final int maxCredits;
+  //  private final int maxCredits;
   private int tokens;
   private int credits;
   private long lastRefillTime;
   private final long timeWindowMillis;
 
-  public TokenBucket(int maxRequests, long timeWindowMillis, /*int maxCredits*/) {
+  public TokenBucket(int maxRequests, long timeWindowMillis /*, int maxCredits*/) {
     this.maxRequests = maxRequests;
 //    this.maxCredits = maxCredits;
     this.tokens = maxRequests;
